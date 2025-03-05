@@ -7,7 +7,7 @@ device = 'cuda:0'
 from huggingface_hub import login
 
 login(
-  token="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", # ADD YOUR TOKEN HERE
+  token=TOKEN, # ADD YOUR TOKEN HERE
   add_to_git_credential=False
 )
 
